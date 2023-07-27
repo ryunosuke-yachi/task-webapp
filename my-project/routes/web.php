@@ -18,11 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/show', function () {
-    return 'タスク一覧画面';
+    return view('show');
 });
 
 Route::get('/register', function () {
-    return 'タスク登録画面';
+    return view('register');
 });
 
 Route::get('/edit', function () {
@@ -38,9 +38,9 @@ Route::get('/remove', function () {
 });
 
 Route::get('/sort', function () {
-    return 'ソート画面';
+    return view('sort');
 });
 
 Route::get('/calendar', function () {
-    return 'カレンダー画面';
+    return view('calendar');
 });
