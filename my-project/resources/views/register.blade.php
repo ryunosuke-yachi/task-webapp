@@ -11,32 +11,38 @@
         </header>
 
         <main>
+            <form action="" method="post">
+                <p>タスク名</p>
+                <input type="text" />
 
-            <p>タスク名</p>
-            <input type="text" />
+                <p>進捗</p>
+                <select name="start">
+                <option value="notstart">未着手</option>
+                <option value="start">作業中</option>
+                <option value="clear">完了</option>
+                </select>
 
-            <p>進捗</p>
-            <select name="start">
-            <option value="notstart">未着手</option>
-            <option value="start">作業中</option>
-            <option value="clear">完了</option>
-            </select>
+                <p>重要度</p>
+                <select name="start">
+                <option value="notstart">低</option>
+                <option value="start">中</option>
+                <option value="clear">高</option>
+                </select>
 
-            <p>重要度</p>
-            <select name="start">
-            <option value="notstart">低</option>
-            <option value="start">中</option>
-            <option value="clear">高</option>
-            </select>
+                <p>締め切り日</p>
+                <input type="date" />
 
-            <p>締め切り日</p>
-            <input type="date" />
+                <p>ジャンル</p>
+                <input type="text" />
 
-            <p>ジャンル</p>
-            <input type="text" />
+                <p>目標日</p>
+                <input type="date" />
 
-            <p>目標日</p>
-            <input type="date" />
+                <button type="submit">Submit</button>
+            </form>
+
+
+
 
             <br><button onclick="location.href='./show'">戻る</button>
         </main>
