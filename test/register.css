@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(-20deg, rgb(6, 228, 194), rgb(23, 202, 97));
+    width: auto;
+    height: auto;
+}
+.register{
+    text-align: center;
+}
+
+
+
+
+
+
+.back{
+    text-align: right;
+}
