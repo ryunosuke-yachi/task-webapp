@@ -36,13 +36,13 @@
                     <input class="name" type="text" value=""placeholder="締め切り日 (yyyy/mm/dd)"/>
                     <br><input class="name" type="text" value=""placeholder="目標日 (yyyy/mm/dd)"/>
 
-                    <br><button class="submit"type="submit">登録</button>
+                    <br><button class="submit btn-square-pop"type="submit">登録</button>
                 </div>
 
 
             </form>
             <div class="back">
-                <br><br><button class="backbutton" onclick="location.href='./show'">戻る</button>
+                <br><br><button class="backbutton btn-square-pop" onclick="location.href='./show'">戻る</button>
             </div>
         </main>
 
