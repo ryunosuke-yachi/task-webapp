@@ -1,17 +1,47 @@
-body{
-    background: linear-gradient(-20deg, rgb(6, 228, 194), rgb(23, 202, 97));
-    width: auto;
-    height: auto;
+@media screen and (min-width:481px){
+    body{
+        background-color: aquamarine;
+        width: auto;
+        height: auto;
+    }
+    .register{
+        text-align: center;
+        font-size: 120%;
+    }
+    .name{
+        width: 30em;
+        height:3em;
+        margin: 15px;
+        max-width: 100%;
+    }
+    select {
+        width: 30.5em;;
+        margin: 15px;
+        height:3em;
+    }
+
+    .submit {
+        margin: 15px;
+        width: 20em;
+        height:3em;
+        background-color: white;
+    }
+
+    .date{
+        margin: 15px;
+        width: 30em;
+        height:3em;
+        max-width: 100%;
+    }
+
+    .backbutton{
+        width: 10em;
+        height:3em;
+        background-color: white;
+    }
+
+    .back{
+        text-align: right;
+    }
 }
-.register{
-    text-align: center;
-}
 
-
-
-
-
-
-.back{
-    text-align: right;
-}

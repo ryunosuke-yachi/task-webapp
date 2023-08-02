@@ -11,9 +11,9 @@
             <form action="" method="post">
 
                 <div class="register">
-                    <input type="text" name="name" value=""placeholder="タスク名" />
+                    <input class="name" type="text" name="name" value=""placeholder="タスク名" />
 
-                    <br><input type="text" value=""placeholder="ジャンル"/>
+                    <br><input class="name" type="text" value=""placeholder="ジャンル"/>
 
                     <div class="progressmenu">
                         <select name="progress" id="progress">
@@ -33,19 +33,16 @@
                         </select>
                     </div>
 
-                    <p class="registertxt">締め切り日</p>
-                    <input type="date" />
+                    <input class="name" type="text" value=""placeholder="締め切り日 (yyyy/mm/dd)"/>
+                    <br><input class="name" type="text" value=""placeholder="目標日 (yyyy/mm/dd)"/>
 
-                    <p class="registertxt">目標日</p>
-                    <input type="date" />
-
-                    <br><button type="submit">登録</button>
+                    <br><button class="submit"type="submit">登録</button>
                 </div>
 
 
             </form>
             <div class="back">
-                <br><button onclick="location.href='./show'">戻る</button>
+                <br><br><button class="backbutton" onclick="location.href='./show'">戻る</button>
             </div>
         </main>
 
