@@ -8,14 +8,18 @@
     <body>
         <header>
             <h1>タスク一覧</h1>
-            <div class="watchbutton">
-                <button class="btn-square-pop">start</button>
-                <button class="btn-square-pop">stop</button>
+            <div class="watchbuttons">
+                <button id="start" class="btn-square-pop watchbutton">start</button>
+                <button id="stop" class="btn-square-pop watchbutton">stop</button>
+                <button id="reset" class="btn-square-pop watchbutton" disabled>reset</button>
+            </div>
             </div>
             <div class="display">
                 <span id="hours" class="time">00</span>
                 <span id="minutes" class="time">00</span>
                 <span id="seconds" class="time">00</span>
+                <span id="milli_seconds" class="time">000</span>
+
             </div>
             <br>
             <hr>
@@ -70,7 +74,7 @@
 
         </main>
 
-
+        <script src="{{asset('js/stopwatch.js')}}"></script>
     </body>
 
 </html>
